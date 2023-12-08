@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alumni+Sans+Collegiate+One:ital@1&family=Amaranth&family=Bai+Jamjuree&family=Barlow&family=Bungee+Spice&family=Combo&family=Cookie&family=DM+Sans&family=Fira+Sans:wght@300&family=Fraunces:wght@300&family=Inter:wght@500&family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,500&family=Kenia&family=Lato:ital,wght@0,300;0,400;1,400&family=League+Spartan:wght@300&family=Lobster&family=Lobster+Two&family=Nova+Square&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Passions+Conflict&family=Playfair+Display&family=Poltawski+Nowy:wght@400;500;600&family=Poppins:wght@300&family=Public+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Amaranth;
+}
+
+.menu{
+    max-width: 600px;
+    margin: 50px auto;
+    width: 100%;
+   
+}
+
+ul{
+    list-style: none;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+}
+a:hover{
+    border-bottom: 3px solid blueviolet;
+    padding: 3px;
+}
+
+.active{
+    border-bottom: 3px solid blueviolet;
+    padding: 3px;
+    transition: 5s ease-in-out; 
+}
+
+.wrapper-content p{
+    line-height: 25px;
+    font-size: 1.2rem;
+    width: 600px;
+    text-align: justify;
+
+}
+
+.wrapper-content{
+    position: relative;    
+}
+
+.tab-content{
+    position: absolute;
+    display: none;
+  padding: 1.75rem 0;
+    height: 100%;
+}
+
+.visible-content{
+    position: static;
+    display: block;
+}
+
