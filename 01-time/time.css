@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alumni+Sans+Collegiate+One:ital@1&family=Amaranth&family=Bai+Jamjuree&family=Barlow&family=Bungee+Spice&family=Combo&family=Cookie&family=DM+Sans&family=Fira+Sans:wght@300&family=Fraunces:wght@300&family=Inter:wght@500&family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,500&family=Kenia&family=Lato:ital,wght@0,300;0,400;1,400&family=League+Spartan:wght@300&family=Lobster&family=Lobster+Two&family=Nova+Square&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Passions+Conflict&family=Playfair+Display&family=Poltawski+Nowy:wght@400;500;600&family=Poppins:wght@300&family=Public+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Amaranth;
+}
+
+.content{
+    width: 100%;
+    height: 100dvh;
+    background-color: #141313;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+}
+ .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: white;
+    margin: 15px;
+     
+}
+
+.flex > div{
+    font-size: 5rem;
+    color: white;
+}
+
+.top{
+    color: white;
+    padding: 1rem;
+}
+
+.flex{
+    animation-name: revel;
+    animation-duration: 5s;
+    animation-timing-function: ease ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes revel{
+    0%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
