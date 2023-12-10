@@ -3,7 +3,6 @@ const close = document.getElementById('close');
 const content = document.getElementById('body');
 
 
-
 function onclick(){
     content.classList.add('active');
 

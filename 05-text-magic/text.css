@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alumni+Sans+Collegiate+One:ital@1&family=Amaranth&family=Bai+Jamjuree&family=Barlow&family=Bungee+Spice&family=Combo&family=Cookie&family=DM+Sans&family=Fira+Sans:wght@300&family=Fraunces:wght@300&family=Inter:wght@500&family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,500&family=Kenia&family=Lato:ital,wght@0,300;0,400;1,400&family=League+Spartan:wght@300&family=Lobster&family=Lobster+Two&family=Nova+Square&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Sans+Narrow:wght@400;700&family=Passions+Conflict&family=Playfair+Display&family=Poltawski+Nowy:wght@400;500;600&family=Poppins:wght@300&family=Public+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Amaranth;
+}
+
+.container{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input{
+    padding: 2rem;
+    width: 600px;
+    font-size: 1.5rem;
+}
+input::placeholder{
+    font-size: 1.5rem;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn{
+    padding: 15px 33px;
+    outline: none;
+    border: none;
+    background: peru;
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn:nth-child(4){
+    font-weight: 1000;
+}
+#btn:nth-child(5){
+    text-decoration: underline;
+}
+
+#btn:active{
+    transform: scale(1.1);
+}
+
+.output{
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid #333;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
