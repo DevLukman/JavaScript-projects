@@ -8,3 +8,6 @@
 
 
 // project 3: sticky navbar and scroll to up arrow, this a single page basic project that keeps the navbar fixed to the screen. for the arrow to , when the screen(scrollY) is above 700px the arrow display, when you clicked it, it takes you up the hero section
+
+
+//project 4: pop up button, when this button is clicked it show the hidden content under this button
