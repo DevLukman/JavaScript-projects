@@ -1,6 +1,7 @@
 const toggleButton = document.querySelector('.toggle-button');
 const linksList = document.querySelector('.link-list');
 const links = document.querySelectorAll('li');
+const navBar = document.getElementById('nav')
 const headerTop = document.querySelector('.header-top');
 const scrollToTop = document.getElementById('toTop');
     scrollToTop.style.display = 'none'
@@ -10,14 +11,22 @@ function onToggle(){
     //toggle the button
     linksList.classList.toggle('active');
     //toggleButton.innerHTML = '<i class="fa-sharp fa-solid fa-xmark">';
+
+
     
-    //removing the active class when any of the link is clicked
-    function onList(){
+  
+}
+//removing the active class when any of the link is clicked
+function list(e){
+    if(e.target.parentElement.classList.contains('link')){
         linksList.classList.remove('active');
     }
-    
-    links.forEach( i => i.addEventListener('click', onList));
+  
 }
+
+
+ 
+
 
 //for the scroll events
 function onScroll(){
@@ -46,4 +55,6 @@ function onScroll(){
 
 //Event Listners
 toggleButton.addEventListener('click', onToggle);
-document.addEventListener('scroll', onScroll)
+document.addEventListener('scroll', onScroll);
+navBar.addEventListener('click', list);
+
