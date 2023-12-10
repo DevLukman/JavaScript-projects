@@ -11,3 +11,5 @@
 
 
 //project 4: pop up button, when this button is clicked it show the hidden content under this button
+
+// project 5: text magic, there is up to five buttons in this page, the first one is to set everything to Uppercase, second button to to captailize the first letter, third button to set the text in output ot Lowercase, the fourth button to set all the text in the output to "bold" and the last button to set the texts in output to underline. 
