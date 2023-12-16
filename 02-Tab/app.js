@@ -17,8 +17,6 @@ function shiftFocus(tab){
     visible.classList.toggle('visible-content')
     active.classList.toggle('active');
    
-   
-
 }
 
 

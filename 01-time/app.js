@@ -29,7 +29,7 @@ function time(){
         greetings.innerHTML = ' Good Morning...';
         
     }
-    else if( hour === 12 || hour > 20){
+    else if( hour === 12 || hour < 19){
         greetings.innerHTML = 'Good Afternoon....'
     }
     else{
